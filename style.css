@@ -9,14 +9,72 @@
     height: 100vh;
 }
 
-.red{
-    background-color: red;
+.image{
+    height: 350px;
 }
 
-.green {
+.red{
+    background-color: red;
+    position: relative;
+    color: yellow;
+}
+
+.content_red{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+.green{
     background-color: green;
+    position: relative;
+    color: yellow;
+}
+
+.content_green{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
 
 .yellow{
     background-color: yellow;
+    position: relative;
+    color: green;
+}
+
+.content_yellow{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.numbers{
+    margin-left: 1162px;
+}
+
+.number{
+    color: black;
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 30px;
 }
